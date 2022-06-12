@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFE274"
     tools:context=".activities.MainActivity">
 
     <TextView
@@ -12,12 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="#FFC107"
-        android:gravity="center"
-        android:text="Rawlakot news"
+        android:background="#0794FF"
+        android:gravity="start"
+        android:text="News App"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <androidx.core.widget.NestedScrollView
